@@ -1,0 +1,29 @@
+[说明]
+commander：用来处理命令行参数
+handlerbars：一个简单高效的语义化模板构建引擎，比如我们用vue-cli构建项目后命令行会有一些交互行为，让你选择要安装的包什么的等等，而Handlerbars.js会根据你的这些选择回答去渲染模版。
+inquirer：会根据模版里面的meta.js或者meta.json文件中的设置，与用户进行一些简单的交互以确定项目的一些细节。
+metalsmith：一个非常简单的可插拔的静态网站生成器，通过添加一些插件对要构建的模版文件进行处理。
+
+
+[执行]
+node ./bin/ss_cli.js template demo
+
+[发布]
+git tag 0.0.1
+git push origin 0.0.1
+
+npm publish --access=public
+
+[参考]
+vue-cli的简单实现
+https://www.jianshu.com/p/fe174b7eeee3
+
+基于node.js的脚手架工具开发经历
+https://juejin.im/post/5a31d210f265da431a43330e
+
+dg-cli-demo
+https://github.com/tccsg/dg-cli-demo
+
+[例子]
+https://github.com/tccsg/dg-cli-demo
+https://github.com/saojs/sao

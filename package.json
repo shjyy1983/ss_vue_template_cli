@@ -1,0 +1,48 @@
+{
+  "name": "ss_vue_cli",
+  "version": "0.0.2",
+  "description": "",
+  "main": "bin/cli.js",
+  "bin": "bin/cli.js",
+  "author": "SHEN",
+  "license": "ISC",
+  "files": [
+    "lib",
+    "bin",
+    "template"
+  ],
+  "scripts": {
+    "build": "node ./bin/ss_cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shjyy1983/ss_cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shjyy1983/ss_cli/issues"
+  },
+  "homepage": "https://github.com/shjyy1983/ss_cli#readme",
+  "keywords": [
+    "cli"
+  ],
+  "devDependencies": {
+    "async": "^3.1.0",
+    "babel-eslint": "^10.0.3",
+    "chalk": "^2.4.2",
+    "commander": "^3.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-hbs": "^0.1.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "glob": "^7.1.4",
+    "handlebars": "^4.1.2",
+    "inquirer": "^7.0.0",
+    "metalsmith": "^2.3.0"
+  }
+}
