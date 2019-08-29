@@ -42,7 +42,8 @@ const destDirName = program.args[1] // 第二个参数 项目目录
 const rootPath = path.resolve(destDirName) // 以当前目录为项目的目录
 const templatePathName = path.join(process.cwd(), templateName) // 项目的绝对路径
 
-console.log(rootPath)
+console.log('rootPath', rootPath)
+console.log('templatePathName', templatePathName)
 if (exists(templatePathName)) {
   inquirer.prompt([ // 这边就用到了与终端交互的inquirer了
     {
