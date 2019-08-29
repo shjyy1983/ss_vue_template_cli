@@ -9,10 +9,14 @@ metalsmith：一个非常简单的可插拔的静态网站生成器，通过添�
 node ./bin/ss_cli.js template demo
 
 [发布]
-git tag 0.0.1
-git push origin 0.0.1
+./publish
 
-npm publish --access=public
+[安装]
+npm i ss_vue_template_cli -g
+
+然后在某个目录下：
+ss_vue_template_cli template demo123
+
 
 [参考]
 vue-cli的简单实现
