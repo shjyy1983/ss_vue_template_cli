@@ -48,7 +48,7 @@ if (exists(templatePathName)) {
   inquirer.prompt([ // 这边就用到了与终端交互的inquirer了
     {
       type: 'confirm',
-      message: 'Continue?',
+      message: '是否创建模版项目?',
       name: 'ok'
     }
   ]).then(answers => {
@@ -56,6 +56,8 @@ if (exists(templatePathName)) {
       run()
     }
   })
+} else {
+  console.log(chalk.red('模版不存在'))
 }
 
 function run() {
