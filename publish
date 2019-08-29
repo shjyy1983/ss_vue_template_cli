@@ -11,6 +11,7 @@ git push origin dev
 
 echo -e '\n\n========================'
 echo '切换到 master 分支，合并代码，提交代码'
+git checkout master
 git merge dev
 git push origin master
 git push --tags
