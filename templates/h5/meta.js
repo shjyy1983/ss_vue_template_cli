@@ -2,7 +2,7 @@
  * @Author: SHEN
  * @Date: 2019-08-28 13:02:29
  * @Last Modified by: SHEN
- * @Last Modified time: 2019-08-29 23:51:05
+ * @Last Modified time: 2019-08-30 00:02:10
  */
 const path = require('path')
 const { installDependencies } = require('../../lib/utils')
