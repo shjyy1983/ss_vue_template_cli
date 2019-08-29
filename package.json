@@ -1,6 +1,6 @@
 {
   "name": "ss_vue_template_cli",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "",
   "main": "bin/ss_vue_template_cli.js",
   "bin": "bin/ss_vue_template_cli.js",
