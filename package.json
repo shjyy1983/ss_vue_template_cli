@@ -26,11 +26,17 @@
   "keywords": [
     "cli"
   ],
-  "devDependencies": {
+  "dependencies": {
     "async": "^3.1.0",
-    "babel-eslint": "^10.0.3",
     "chalk": "^2.4.2",
     "commander": "^3.0.0",
+    "glob": "^7.1.4",
+    "handlebars": "^4.1.2",
+    "inquirer": "^7.0.0",
+    "metalsmith": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.2.2",
     "eslint-config-standard": "^14.1.0",
     "eslint-friendly-formatter": "^4.0.1",
@@ -40,10 +46,6 @@
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^5.2.3",
-    "glob": "^7.1.4",
-    "handlebars": "^4.1.2",
-    "inquirer": "^7.0.0",
-    "metalsmith": "^2.3.0"
+    "eslint-plugin-vue": "^5.2.3"
   }
 }
