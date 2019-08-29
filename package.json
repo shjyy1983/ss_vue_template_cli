@@ -9,7 +9,7 @@
   "files": [
     "lib",
     "bin",
-    "template",
+    "templates",
     "node_modules"
   ],
   "scripts": {
