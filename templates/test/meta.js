@@ -2,10 +2,10 @@
  * @Author: SHEN
  * @Date: 2019-08-28 13:02:29
  * @Last Modified by: SHEN
- * @Last Modified time: 2019-08-29 11:09:39
+ * @Last Modified time: 2019-08-29 23:33:03
  */
 const path = require('path')
-const { installDependencies } = require('../lib/utils')
+const { installDependencies } = require('../../lib/utils')
 
 module.exports = {
   prompts: {
