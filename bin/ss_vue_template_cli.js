@@ -40,7 +40,7 @@ const templateName = program.args[0] // 命令行第一个参数 模版的名字
 const destDirName = program.args[1] // 第二个参数 项目目录
 
 const rootPath = path.resolve(destDirName) // 以当前目录为项目的目录
-const templatePathName = path.join('../', templateName) // 项目的绝对路径
+const templatePathName = path.join(path.resolve('../'), templateName) // 项目的绝对路径
 
 console.log('rootPath', rootPath)
 console.log('templatePathName', templatePathName)
