@@ -1,0 +1,12 @@
+{
+  "name": "{{title}}",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "SHEN",
+  "license": "ISC",
+  "bin": "bin/ss_cli.js",
+  "devDependencies": {
+    "chalk": "^2.4.2"
+  }
+}
