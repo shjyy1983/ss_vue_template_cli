@@ -1,7 +1,7 @@
 # 发布
 echo '发布中...'
 
-echo -e '========================\n\n'
+echo -e '========================'
 echo '切换到 dev 分支，提交代码'
 git checkout dev
 git add .
@@ -9,15 +9,15 @@ git commit -m 'dev'
 npm version patch
 git push origin dev
 
-echo -e '========================\n\n'
+echo -e '\n\n========================'
 echo '切换到 master 分支，合并代码，提交代码'
 git merge dev
 git push origin master
 git push --tags
 
-echo -e '========================\n\n'
+echo -e '\n\n========================'
 echo '切换到 dev 分支'
 git checkout dev
 
-echo -e '========================\n\n'
+echo -e '\n\n========================'
 echo '完毕'
