@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const program = require('commander')
 const path = require('path')
 const chalk = require('chalk') // 终端字体颜色

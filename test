@@ -1,0 +1,9 @@
+
+read -p "是否要删除所有的本地和远端 tag？(y/n): " check
+
+if [ "$check"x == 'y'x ]
+then
+  echo '删除...'
+else
+  echo 'not...'
+fi
