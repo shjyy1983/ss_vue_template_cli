@@ -6,9 +6,17 @@ echo '切换到 dev 分支，提交代码'
 git checkout dev
 git add .
 git commit -m 'dev'
+npm version patch
 git push origin dev
 
 echo '========================'
 echo '切换到 master 分支，合并代码，提交代码'
 git merge dev
 git push origin master
+
+echo '========================'
+echo '切换到 dev 分支'
+git checkout dev
+
+echo '========================'
+echo '完毕'
