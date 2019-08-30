@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shjyy1983/ss_cli.git"
+    "url": "git+https://github.com/shjyy1983/ss_vue_template_cli.git"
   },
   "bugs": {
-    "url": "https://github.com/shjyy1983/ss_cli/issues"
+    "url": "https://github.com/shjyy1983/ss_vue_template_cli/issues"
   },
-  "homepage": "https://github.com/shjyy1983/ss_cli#readme",
+  "homepage": "https://github.com/shjyy1983/ss_vue_template_cli#readme",
   "keywords": [
     "cli"
   ],

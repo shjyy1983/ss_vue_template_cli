@@ -15,7 +15,7 @@ node ./bin/ss_cli.js template demo
 npm i ss_vue_template_cli -g
 
 然后在某个目录下：
-ss_vue_template_cli template demo123
+ss_vue_template_cli h5 demo1
 
 
 [参考]
